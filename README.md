@@ -151,6 +151,3 @@ SERS-main/
 
 ---
 
-## Attribution and reuse
-
-This repository is an authorized learning/adaptation copy of [Smart E-Learning Recommendation System (SERS)](https://github.com/NareshChary0430/Smart-Learning-Recommendation-System). The upstream project and its original implementation remain credited to the original creator. This copy has been prepared for personal learning and portfolio practice; please see the upstream repository for its original context.
