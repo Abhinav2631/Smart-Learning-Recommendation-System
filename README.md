@@ -41,7 +41,7 @@ SERS is a React/Vite learning-planner application that uses Gemini to generate s
 
 ## Configuration notes
 
-The environment template documents the variables used by Firebase and Gemini. Authentication, database rules, and API usage limits must be configured in the corresponding provider dashboards before use.
+The environment template documents the variables used by Firebase and Gemini. Authentication, database rules, and API usage limits must be configured in the corresponding provider dashboards before use. Because Vite exposes variables prefixed with `VITE_` in the browser bundle, do not treat `VITE_GEMINI_API_KEY` as a private secret for a public deployment. For production, route Gemini requests through a backend and apply appropriate access controls and quotas.
 
 ## Attribution and repository scope
 
